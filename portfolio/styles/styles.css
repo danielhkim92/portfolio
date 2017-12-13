@@ -1,0 +1,60 @@
+body, html {
+    font-family: 'Inconsolata', monospace;
+    width: 100%;
+}
+
+// #beginning {
+//     margin: 15%;
+// }
+
+// // #about {
+// //     width: 100%;
+// // }
+// #work {
+//     margin: 20%;
+// }
+
+// #interests {
+//     margin: 20%;
+// }
+
+
+
+#contents {
+    float: right;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+// #face {
+//     height: 50%;
+//     width: 50%;
+// }
+
+
+
+#navbar-contents li {
+    display: inline-block;
+}
+
+
+#icons li {
+	display: inline-block;
+}
+
+.icons {
+	height: 30px;
+	width: 30px;
+}
+
+#bottomicons {
+    display: inline-block;
+}
+
+
