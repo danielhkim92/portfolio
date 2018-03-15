@@ -1,24 +1,26 @@
 body, html {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto', black;
     width: 100%;
 }
 
-// #beginning {
-//     margin: 15%;
-// }
+#beginning {
+    margin: 15%;
+ }
+ #about {
+   width: 100%;
+}
+ #work {
+   margin: 20%;
+}
 
-// // #about {
-// //     width: 100%;
-// // }
-// #work {
-//     margin: 20%;
-// }
+#interests {
+    margin: 20%;
+ }
 
-// #interests {
-//     margin: 20%;
-// }
+#navbar {
+    width: 20%;
 
-
+}
 
 #contents {
     float: right;
