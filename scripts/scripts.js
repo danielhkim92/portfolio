@@ -1,5 +1,4 @@
-var text = document.createTextNode('<p>Stuff</p>');
-document.body.appendChild(text);
+
 
 
 
