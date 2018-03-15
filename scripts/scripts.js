@@ -50,3 +50,8 @@ $("#js-rotating").Morphext({
 //    $('.dropdown-button').dropdown('close');
 
 //    $('.dropdown-button').dropdown('open');
+
+  // Initialize collapse button
+  $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  $('.collapsible').collapsible();

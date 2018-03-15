@@ -4,7 +4,8 @@
 	<title>Daniel's Portfolio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">
+
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/animate.css">
   <link rel="stylesheet" type="text/css" href="styles/morphext.css">
@@ -14,7 +15,25 @@
 
 
 <!-- 						NAV BAR -->
-  <div class="navbar-fixed z-depth-5">
+
+  <ul id="slide-out" class="side-nav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="images/office.jpg">
+      </div>
+      <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+      <a href="#!name"><span class="white-text name">John Doe</span></a>
+      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+<!--   <div class="navbar-fixed z-depth-5">
     <nav class="#cfd8dc blue-grey lighten-4">
       <ul>
         <li><a href="photos/Resume121107.pdf"><img class="icons" src="photos/resume.png"></a></li>
@@ -24,7 +43,7 @@
         <li><a href="https://www.instagram.com/danielhkim92/"><img class="icons"  src="photos/instagram.png"></a></li>
       </ul>
     </nav>
-  </div>
+  </div> -->
 
 
 
@@ -48,7 +67,7 @@
 
 
 
-
+<!-- 
 
   <section class="#c5cae9 indigo lighten-4 z-depth-5">
     <div class="container">
@@ -137,7 +156,7 @@ By utilizing elements and principles of Material Design, we were able to create 
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!--   <section class="#bbdefb blue lighten-4">
   <div class="container ">
     <div id="interests" class="row">
@@ -177,7 +196,7 @@ By utilizing elements and principles of Material Design, we were able to create 
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
 <script src="scripts/morphext.min.js"></script>
 <script src="scripts/scripts.js" type="text/javascript"></script>
 </body>
