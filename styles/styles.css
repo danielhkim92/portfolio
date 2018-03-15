@@ -1,54 +1,13 @@
 body, html {
     font-family: 'Roboto', black;
-    width: 100%;
 }
-
-
-
-#beginning {
-    margin: 15%;
- }
- #about {
-   width: 100%;
-}
- #work {
-   margin: 20%;
-}
-
-#interests {
-    margin: 20%;
- }
-
-
-
-
-
-img {
-    height: 100%;
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-.icons {
-	height: 20px;
-	width: 20px;
-}
-
-
-
 
 #container {
-  padding-left: 300px;
+  padding-left: 200px;
 }
 
 #content {
-  padding: 200px;
+  padding-left: 200px;
 }
 
 @media only screen and (max-width : 992px) {
@@ -59,7 +18,15 @@ img {
 
 #profilepic {
     margin-left: 10px;
-    padding: 10px 10px 10px 10px;
+    padding: 15px 10px 5px 10px;
     height: 210px;
     width: 180px;
+}
+
+.icons {
+    position: relative;
+    height: 28px;
+    width: 28px;
+    padding-right: 5px;
+    top: 10px;
 }
