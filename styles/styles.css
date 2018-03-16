@@ -20,13 +20,12 @@ body, html {
     width: 180px;
 }
 
-
-.disable-hover:hover {
-    background-color: white;
+.noHover{
+    pointer-events: none;
 }
 
 #navbar-li {
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 .navbar-icons {
@@ -41,10 +40,15 @@ body, html {
 #icons li {
     display: inline-block;
     width: 42px;
+    margin-top: 20px
+}
+
+#icons a {
+    margin-left: 0px;
+    padding-left: 20px;
 }
 
 .icons {
-    position: relative;
     height: 25px;
     width: 25px
     top: 10px;
@@ -61,8 +65,12 @@ body, html {
     color: white;
 }
 
+#home-text {
+    padding-top: 100px;
+}
+
 #about {
-    margin-top: -25px;
+
     background-image: url('../photos/background1.jpg');
     background-size: cover;
     background-repeat: no-repeat;

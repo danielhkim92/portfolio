@@ -13,60 +13,64 @@
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body>
+
+
 <!-- 						NAV BAR -->
   <div id="menu">
-    <ul id="slide-out" class="z-depth-5 side-nav fixed show-on-large-only #f5f5f5 grey lighten-4">
+    <ul id="slide-out" class="z-depth-5 side-nav fixed show-on-large-only">
       <img src="photos/profileimage.jpg" alt="" id="profilepic" class="circle"> <!-- notice the "circle" class -->
         <h6 class="center-align">DANIEL KIM</h6>
         <h6 class="center-align">FULLSTACK DEVELOPER</h6>
           <hr>
             <ul id="icons">
-              <li class="disable-hover"><a href="photos/Resume121107.pdf"><img class="icons" src="photos/resume.png"></a></li>
-              <li class="disable-hover"><a href="danielhkim92@gmail.com" ><img class="icons" src="photos/email.png"></a></li>
-              <li class="disable-hover"><a href="https://www.linkedin.com/in/danielhkim92/"><img class="icons" src="photos/linkedin.png"></a></li>
-              <li class="disable-hover"><a href="https://github.com/danielhkim92"><img class="icons" src="photos/github.png"></a></li>
-              <li class="disable-hover"><a href="https://www.instagram.com/danielhkim92/"><img class="icons"  src="photos/instagram.png"></a></li>
+              <li><a href="photos/Resume121107.pdf" class="noHover"><img class="icons" src="photos/resume.png"></a></li>
+              <li><a href="danielhkim92@gmail.com" class="noHover"><img class="icons" src="photos/email.png"></a></li>
+              <li><a href="https://www.linkedin.com/in/danielhkim92/" class="noHover"><img class="icons" src="photos/linkedin.png"></a></li>
+              <li><a href="https://github.com/danielhkim92" class="noHover"><img class="icons" src="photos/github.png"></a></li>
+              <li><a href="https://www.instagram.com/danielhkim92/" class="noHover"><img class="icons"  src="photos/instagram.png"></a></li>
             </ul>
-      <li id="navbar-li" class="navbarcenter-align"><a href="#home"><i class="material-icons navbar-icons">home</i>Home</a></li>
-      <li class="navbarcenter-align"><a href="#about"><i class="material-icons navbar-icons">person</i>About</a></li>
-      <li class="navbarcenter-align"><a href="#skills"><i class="material-icons navbar-icons">insert_chart</i>Skills</a></li>
-      <li class="navbarcenter-align"><a href="#projects"><i class="material-icons navbar-icons">laptop_mac</i>Projects</a></li>
+      <li id="navbar-li" class="navbarcenter-align"><a href="#home" class="noHover"><i class="material-icons navbar-icons">home</i>Home</a></li>
+      <li class="navbarcenter-align"><a href="#about" class="noHover"><i class="material-icons navbar-icons">person</i>About</a></li>
+      <li class="navbarcenter-align"><a href="#skills" class="noHover"><i class="material-icons navbar-icons">insert_chart</i>Skills</a></li>
+      <li class="navbarcenter-align"><a href="#projects" class="noHover"><i class="material-icons navbar-icons">laptop_mac</i>Projects</a></li>
     </ul>
   </div>
 
+
+<!--   BODY -->
   <div id="content">
     <a href="#" data-activates="slide-out" class="button-collapse hide-on-large-only"><i class="material-icons">menu</i></a>
       <div id="home">
-        <div id="home-text">
-          <h1 class="center-align"><span class="home-background">I'm Daniel,</span></h1>
-          <h2 class="center-align"><span class="home-background home-h2" id="js-rotating">a Developer, a Team Player,an Innovator,a Problem Solver,an Entrepreneur</span></h2>
+        <div class="container">
+          <div id="home-text">
+            <h1 class="center-align"><span class="home-background">I'm Daniel,</span></h1>
+            <h2 class="center-align"><span class="home-background home-h2" id="js-rotating">a Developer, a Team Player,an Innovator,a Problem Solver,an Entrepreneur</span></h2>
+          </div>
+            <div class="row"><!-- <h4 id="skills-header" class="center-align">ABOUT</h4> -->
+              <ul id="about-headers" class="center-align">
+                <li>
+                  <div class="center-align about-headers">
+                    <i class="large material-icons about-icons">golf_course</i>
+                      <h6 class="center-align about-icons">Goal Focused</h6>
+                  </div>
+                </li>
+                <li>
+                  <div class="center-align about-headers">
+                    <i class="large material-icons about-icons">sentiment_very_satisfied</i>
+                      <h6 class="center-align about-icons">People Focused</h6>
+                  </div>
+                </li>
+                <li>
+                  <div class="center-align about-headers">
+                    <i class="large material-icons about-icons">work</i> 
+                      <h6 class="center-align about-icons">Work Focused</h6>               
+                  </div> 
+                </li>   
+              </ul> 
+            </div>
         </div>
       </div>
       <div id="about">
-        <div class="container">
-          <div class="row"><!-- <h4 id="skills-header" class="center-align">ABOUT</h4> -->
-            <ul id="about-headers" class="center-align">
-              <li>
-                <div class="center-align about-headers">
-                  <i class="large material-icons about-icons">golf_course</i>
-                    <h6 class="center-align about-icons">Goal Focused</h6>
-                </div>
-              </li>
-              <li>
-                <div class="center-align about-headers">
-                  <i class="large material-icons about-icons">sentiment_very_satisfied</i>
-                    <h6 class="center-align about-icons">People Focused</h6>
-                </div>
-              </li>
-              <li>
-                <div class="center-align about-headers">
-                  <i class="large material-icons about-icons">work</i> 
-                    <h6 class="center-align about-icons">Work Focused</h6>               
-                </div> 
-              </li>   
-            </ul> 
-          </div>
-        </div>
       </div>
       <div id="skills">
         <div class="container">
