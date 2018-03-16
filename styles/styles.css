@@ -20,8 +20,11 @@ body, html {
     width: 180px;
 }
 
-.noHover{
-    pointer-events: none;
+/*.noHover{
+    pointer-events: ;
+}*/
+#icons a:hover {
+    background: white;
 }
 
 #navbar-li {
@@ -57,7 +60,7 @@ body, html {
 #home {
     background-image: url("../photos/coolbackground.jpg");
     /* Full height */
-    height: 710px; 
+    height: 100%; 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -67,6 +70,14 @@ body, html {
 
 #home-text {
     padding-top: 100px;
+}
+
+#home-bottom {
+    background-image: url('../photos/geometric.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 125px;
 }
 
 #about {
