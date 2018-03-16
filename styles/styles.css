@@ -21,6 +21,9 @@ body, html {
 }
 
 
+.disable-hover:hover {
+    background-color: white;
+}
 
 #navbar-li {
     padding-top: 80px;
@@ -35,11 +38,15 @@ body, html {
     padding-left: 10px;
 }
 
+#icons li {
+    display: inline-block;
+    width: 42px;
+}
+
 .icons {
     position: relative;
-    height: 35px;
-    width: 35px;
-    padding-right: 5px;
+    height: 25px;
+    width: 25px
     top: 10px;
 }
 
@@ -54,13 +61,25 @@ body, html {
     color: white;
 }
 
+#about {
+    margin-top: -25px;
+    background-image: url('../photos/background1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 725px;
+}
+
 #about-headers li {
     display: inline-block;
 }
 
 .about-headers {
-    padding: 30px 30px 30px 30px;
+    padding: 50px 50px 50px 50px;
+}
 
+.about-icons {
+    color: #fafafa;
 }
 
 #skills {
