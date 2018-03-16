@@ -1,5 +1,6 @@
 body, html {
     font-family: 'Roboto', black;
+    margin-top: -22px;
 }
 
 #container {
@@ -23,10 +24,33 @@ body, html {
     width: 180px;
 }
 
+#navbar-li {
+    padding-top: 100px;
+}
+
 .icons {
     position: relative;
-    height: 28px;
-    width: 28px;
+    height: 35px;
+    width: 35px;
     padding-right: 5px;
     top: 10px;
 }
+
+#home {
+    background-image: url("../photos/background.jpg");
+    /* Full height */
+    height: 655px; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+
+.home-background {
+    background-color: black;
+    opacity: .7;
+}
+
