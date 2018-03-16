@@ -3,6 +3,10 @@ body, html {
     margin-top: -22px;
 }
 
+.font {
+    font-family: 'Capriola', sans-serif;
+}
+
 #content {
   padding-left: 250px;
 }
@@ -140,4 +144,34 @@ body, html {
     height: 75px;
     width: 75px;
     margin: 25px;
+}
+
+.project-image {
+    padding-top: 40px;
+    height: 400px;
+    width: 400px;
+
+}
+
+.projects {
+    padding: 25px 80px 25px 80px;
+}
+
+#projects {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: -50px;
+    background-image: url('../photos/graphwallpaper.jpg');
+    background-position: center;
+}
+
+.project-header {
+    padding-bottom: 40px;
+}
+
+.project-content {
+    padding-left: 20px;
+    padding-right: 20px;
 }
