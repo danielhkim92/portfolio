@@ -5,7 +5,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/animate.css">
   <link rel="stylesheet" type="text/css" href="styles/morphext.css">
@@ -15,7 +16,7 @@
 <!-- 						NAV BAR -->
   <div id="menu">
     <ul id="slide-out" class="z-depth-5 side-nav fixed show-on-large-only #f5f5f5 grey lighten-4">
-      <img src="photos/profileimage.jpg" alt="" id="profilepic" class="circle responsive-img"> <!-- notice the "circle" class -->
+      <img src="photos/profileimage.jpg" alt="" id="profilepic" class="circle"> <!-- notice the "circle" class -->
 <!--         <ul id="icons">
           <li class="center-align"><a href="photos/Resume121107.pdf"><img class="icons" src="photos/resume.png"></a></li>
           <li class="center-align"><a href="danielhkim92@gmail.com" ><img class="icons" src="photos/email.png"></a></li>
@@ -23,11 +24,13 @@
           <li class="center-align"><a href="https://github.com/danielhkim92"><img class="icons" src="photos/github.png"></a></li>
           <li class="center-align"><a href="https://www.instagram.com/danielhkim92/"><img class="icons"  src="photos/instagram.png"></a></li>
         </ul> -->
+        <h5 class="center-align">Daniel Kim</h5>
+        <h5 class="center-align">Fullstack Developer</h5>
           <hr>
-      <li id="navbar-li" class="center-align"><a href="#home">Home</a></li>
-      <li class="center-align"><a href="#about">About</a></li>
-      <li class="center-align"><a href="#skills">Skills</a></li>
-      <li class="center-align"><a href="#work">Work</a></li>
+      <li id="navbar-li" class="navbarcenter-align"><a href="#home"><i class="material-icons navbar-icons">home</i>Home</a></li>
+      <li class="navbarcenter-align"><a href="#about"><i class="material-icons navbar-icons">person</i>About</a></li>
+      <li class="navbarcenter-align"><a href="#skills"><i class="material-icons navbar-icons">insert_chart</i>Skills</a></li>
+      <li class="navbarcenter-align"><a href="#projects"><i class="material-icons navbar-icons">laptop_mac</i>Projects</a></li>
     </ul>
   </div>
 
@@ -37,6 +40,43 @@
         <div id="home-text">
           <h1 class="center-align"><span class="home-background">I'm Daniel,</span></h1>
           <h2 class="center-align"><span class="home-background home-h2" id="js-rotating">a Developer, a Team Player,an Innovator,a Problem Solver,an Entrepreneur</span></h2>
+        </div>
+      </div>
+      <div id="skills">
+        <div class="container">
+            <h3>SKILLS</h3>
+              <div class="card">
+              <ul id="javascript"><h5>Languages</h5>
+                <li>Javascript</li>
+                <li>Ruby</li>
+                <li>Java</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+              </ul>
+              </div>
+              <ul id="frameworks"><h4>Front-End</h4>
+                <li><div>
+                  <img src="photos/skills/react.png" class="skill-icons"></div>React</li>
+                <li>Angular</li>
+                <li>Node.js</li>
+                <li>Materialize</li>
+                <li>Bootstrap</li>
+              </ul>
+              <ul id='backend'><h4>Back-end</h4>
+                <li>MongoDB</li>
+                <li>PostgreSQL</li>
+                <li>Rails</li>
+                <li>Sinatra</li>
+                <li>Express.js</li>
+              </ul>     
+              <ul id="other"><h4>Other</h4>
+                <li>Gulp</li>
+                <li>Mocha</li>
+                <li>Jest</li>
+                <li>Github</li>
+                <li>Heroku</li>
+              </ul>
+          </div>
         </div>
       </div>
   </div>

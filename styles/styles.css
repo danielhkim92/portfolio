@@ -4,11 +4,11 @@ body, html {
 }
 
 #container {
-  padding-left: 200px;
+  padding-left: 250px;
 }
 
 #content {
-  padding-left: 200px;
+  padding-left: 250px;
 }
 
 @media only screen and (max-width : 992px) {
@@ -18,14 +18,25 @@ body, html {
 }
 
 #profilepic {
-    margin-left: 10px;
-    padding: 15px 10px 5px 10px;
+    margin-left: 30px;
+    padding: 20px 10px 5px 10px;
     height: 210px;
     width: 180px;
 }
 
+
+
 #navbar-li {
-    padding-top: 100px;
+    padding-top: 80px;
+}
+
+.navbar-icons {
+    margin-right: 0px;
+    padding-left: 35px;
+}
+
+.navbarcenter-align {
+    padding-left: 10px;
 }
 
 .icons {
@@ -37,9 +48,9 @@ body, html {
 }
 
 #home {
-    background-image: url("../photos/background.jpg");
+    background-image: url("../photos/golfbackground.jpg");
     /* Full height */
-    height: 655px; 
+    height: 710px; 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -50,7 +61,7 @@ body, html {
 
 
 .home-background {
-    background-color: black;
-    opacity: .7;
+    
+   
 }
 
