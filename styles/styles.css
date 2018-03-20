@@ -24,6 +24,7 @@ body, html {
     width: 180px;
 }
 
+
 /*.noHover{
     pointer-events: ;
 }*/
@@ -127,20 +128,26 @@ body, html {
 }
 
 #languages li {;
-    display: inline;
+    display: inline-block;
 }
 
 #frameworks li {
-    display: inline;
+    display: inline-block;
 }
 
 #backend li {
-    display: inline;
+    display: inline-block;
 }
 
 #other li {
-    display: inline;
+    display: inline-block;
 }
+
+.icon-header {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
 .skill-icons {
     height: 75px;
     width: 75px;
