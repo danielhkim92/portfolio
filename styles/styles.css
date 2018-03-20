@@ -7,15 +7,17 @@ body, html {
     font-family: 'Capriola', sans-serif;
 }
 
-#content {
-  padding-left: 250px;
+.header-font {
+    font-weight: bold;
 }
 
-/*@media only screen and (max-width : 992px) {
-  #container {
-    padding-left: 0px;
+
+
+@media screen and (min-width: 992px) {
+  #content {
+    padding-left: 250px;
   }
-}*/
+}
 
 #profilepic {
     margin-left: 30px;
@@ -33,7 +35,7 @@ body, html {
 }
 
 #navbar-li {
-    padding-top: 60px;
+    padding-top: 45px;
 }
 
 .navbar-icons {
@@ -179,7 +181,26 @@ body, html {
     padding-bottom: 40px;
 }
 
+.app-skills li {
+    display: inline-block;
+    padding: 30px;
+}
+
+.app-skill-icons {
+    height: 65px;
+    width: 65px;
+}
+
+.app-icon-header {
+    font-weight: 400;
+}
+
 .project-content {
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.skill-bottom-padding {
+    padding: 30px 30px 30px 30px;
 }
