@@ -16,13 +16,13 @@ body, html {
     font-style: italic;
     font-weight: 900;
     font-size: 40px;
-    color: white;
+    color: black;
 }
 
 blockquote{
   margin: 20px 0;
   padding-left: 1.5rem;
-  border-left: 5px solid white; /* Just change the color value and that's it*/
+  border-left: 5px solid black; /* Just change the color value and that's it*/
 }
 
 @media screen and (min-width: 992px) {
@@ -53,6 +53,7 @@ blockquote{
 .navbar-icons {
     margin-right: 0px;
     padding-left: 35px;
+    color: black;
 }
 
 .navbarcenter-align {
@@ -77,31 +78,24 @@ blockquote{
 }
 
 #home {
-    background-image: url("../photos/coolbackground.jpg");
+/*    background-image: url("../photos/coolbackground.jpg");*/
     /* Full height */
-    height: 100%; 
+    height: 725px; 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: black;
 }
 
 #home-text {
     padding-top: 100px;
 }
 
-#home-bottom {
-    background-image: url('../photos/geometric.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 155px;
-}
 
 #about {
 
-    background-image: url('../photos/background1.jpg');
+/*    background-image: url('../photos/background1.jpg');*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -118,7 +112,7 @@ blockquote{
 
 #about-content {
 
-    color: white;
+    color: black;
     margin-top: 60px;
     padding: 20px 20px 20px 20px;
 }
@@ -132,12 +126,12 @@ blockquote{
 }
 
 .about-icons {
-    color: #fafafa;
+    color: black;
 }
 
 #skills {
     margin-top: -50px;
-    background-image: url('../photos/skillsbackground.jpg');
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -145,7 +139,7 @@ blockquote{
 }
 
 #skills-header {
-    padding-top: 80px;
+/*    padding-top: 80px;*/
 }
 
 .card {
@@ -174,20 +168,20 @@ blockquote{
 
 .icon-header {
     margin-bottom: 40px;
-    font-weight: bold;
 }
 
 .skill-icons {
-    height: 75px;
-    width: 75px;
+    height: 45px;
+    width: 45px;
     margin: 25px;
 }
 
 .project-image {
+    padding-left: 50px;
     padding-right: 50px;
     padding-top: 40px;
-    height: 400px;
-    width: 600px;
+    height: 130%;
+    width: 95%;
 
 }
 
@@ -198,11 +192,10 @@ blockquote{
 #projects {
     padding-left: 70px;
     padding-right: 70px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+/*    padding-top: 100px;
+*/    padding-bottom: 100px;
     margin-top: -50px;
-    background-image: url('../photos/graphwallpaper.jpg');
-    background-position: center;
+/*    background-image: url("..photos/projectsbackdrop.jpg");*/
 }
 
 .project-header {
@@ -230,5 +223,5 @@ blockquote{
 }
 
 .skill-bottom-padding {
-    padding: 30px 30px 30px 30px;
+    padding: 0px 30px 30px 30px;
 }
