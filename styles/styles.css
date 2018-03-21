@@ -16,13 +16,13 @@ body, html {
     font-style: italic;
     font-weight: 900;
     font-size: 40px;
-    color: black;
+    color: white;
 }
 
 blockquote{
   margin: 20px 0;
   padding-left: 1.5rem;
-  border-left: 5px solid black; /* Just change the color value and that's it*/
+  border-left: 5px solid white; /* Just change the color value and that's it*/
 }
 
 @media screen and (min-width: 992px) {
@@ -31,6 +31,11 @@ blockquote{
   }
 }
 
+#content {
+    background-image: url("../photos/stone-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 #profilepic {
     margin-left: 30px;
     padding: 20px 10px 5px 10px;
@@ -85,7 +90,7 @@ blockquote{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: black;
+    color: white;
 }
 
 #home-text {
@@ -112,7 +117,7 @@ blockquote{
 
 #about-content {
 
-    color: black;
+    color: white;
     margin-top: 60px;
     padding: 20px 20px 20px 20px;
 }
@@ -126,7 +131,7 @@ blockquote{
 }
 
 .about-icons {
-    color: black;
+    color: white;
 }
 
 #skills {
