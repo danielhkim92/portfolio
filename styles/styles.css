@@ -5,6 +5,11 @@ body, html {
 
 .font {
     font-family: 'Capriola', sans-serif;
+    color: black;
+}
+
+.white-font {
+    color: white;
 }
 
 .header-font {
@@ -35,6 +40,7 @@ blockquote{
     background-image: url("../photos/stone-background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 #profilepic {
     margin-left: 30px;
