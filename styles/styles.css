@@ -184,9 +184,10 @@ blockquote{
 }
 
 .project-image {
+    padding-right: 50px;
     padding-top: 40px;
     height: 400px;
-    width: 400px;
+    width: 600px;
 
 }
 
