@@ -15,27 +15,16 @@
 </head>
 <body>
 
+<!-- <header class="center-align">
+    <ul id="icons">
+      <li><a href="photos/Resume032117.pdf" class="noHover"><img class="icons" src="photos/resume.png"></a></li>
+      <li><a href="mailto:danielhkim92@gmail.com" class="noHover"><img class="icons" src="photos/email.png"></a></li>
+      <li><a href="https://www.linkedin.com/in/danielhkim92/" class="noHover"><img class="icons" src="photos/linkedin.png"></a></li>
+      <li><a href="https://github.com/danielhkim92" class="noHover"><img class="icons" src="photos/github.png"></a></li>
+      <li><a href="https://www.instagram.com/danielhkim92/" class="noHover"><img class="icons"  src="photos/instagram.png"></a></li>
+      </ul>
+</header> -->
 
-<!-- 						NAV BAR -->
-  <div id="menu">
-    <ul id="slide-out" class="z-depth-5 side-nav fixed show-on-large-only">
-      <img src="photos/profileimage.jpg" alt="" id="profilepic" class="circle"> <!-- notice the "circle" class -->
-        <h6 class="center-align header-font">DANIEL KIM</h6>
-        <h6 class="center-align header-font">FULLSTACK DEVELOPER</h6>
-          <hr>
-            <ul id="icons">
-              <li><a href="photos/Resume032117.pdf" class="noHover"><img class="icons" src="photos/resume.png"></a></li>
-              <li><a href="mailto:danielhkim92@gmail.com" class="noHover"><img class="icons" src="photos/email.png"></a></li>
-              <li><a href="https://www.linkedin.com/in/danielhkim92/" class="noHover"><img class="icons" src="photos/linkedin.png"></a></li>
-              <li><a href="https://github.com/danielhkim92" class="noHover"><img class="icons" src="photos/github.png"></a></li>
-              <li><a href="https://www.instagram.com/danielhkim92/" class="noHover"><img class="icons"  src="photos/instagram.png"></a></li>
-            </ul>
-              <li id="navbar-li" class="navbarcenter-align"><a href="#home" class="noHover"><i class="material-icons navbar-icons about-icons">home</i>Home</a></li>
-              <li class="navbarcenter-align"><a href="#about" class="noHover"><i class="material-icons navbar-icons about-icons">person</i>About</a></li>
-              <li class="navbarcenter-align"><a href="#skills" class="noHover"><i class="material-icons navbar-icons about-icons">insert_chart</i>Skills</a></li>
-              <li class="navbarcenter-align"><a href="#projects" class="noHover"><i class="material-icons navbar-icons about-icons">laptop_mac</i>Projects</a></li>
-    </ul>
-  </div>
 
 
 <!--   BODY -->
@@ -43,11 +32,17 @@
     <a href="#" data-activates="slide-out" class="button-collapse hide-on-large-only"><i class="material-icons">menu</i></a>
       <div id="home">
         <div class="container">
+            <ul id='header' class="center-align">
+              <li id="navbar-li" class="navbarcenter-align"><a href="#home" class="noHover"><i class="medium material-icons navbar-icons about-icons">home</i><h6 class="header">Home</h6></a></li>
+              <li class="navbarcenter-align"><a href="#about" class="noHover"><i class="medium material-icons navbar-icons about-icons">person</i><h6  class="header">About</h6></a></li>
+              <li class="navbarcenter-align"><a href="#skills" class="noHover"><i class="medium material-icons navbar-icons about-icons">insert_chart</i><h6 class="header">Skills</h6></i></a></li>
+              <li class="navbarcenter-align"><a href="#projects" class="noHover"><i class="medium material-icons navbar-icons about-icons">laptop_mac</i><h6 class="header">Projects</h6></a></li>
+            </ul>
           <div id="home-text">
             <h1 class="center-align"><span class="home-background white-font">I'm Daniel,</span></h1>
             <h2 class="center-align"><span class="home-background home-h2 white-font" id="js-rotating">a Developer,Enthusiastic,a Team Player,an Innovator,a Problem Solver,Open-Minded</span></h2>
           </div>
-            <div class="row"><!-- <h4 id="skills-header" class="center-align">ABOUT</h4> -->
+            <div class="row center-align">
               <ul id="about-headers" class="center-align">
                 <li>
                   <div class="center-align about-headers">
@@ -83,7 +78,7 @@
             <div id="about-content">
               <div class="col s4">
                 <i class="large material-icons about-icons">directions_walk</i>
-                <p>I completed General Asssembly's Fullstack Web Development Program to begin my path as a developer.  Learning to be a team player and my desire to learn are valuable tools that help me become successful.</p>
+                <p>I love the satisfaction of achieving goals through hard work and collaboration.  I believe coding is a great platform that allows me to accomplish and achieve the goals I set for myself.</p>
               </div>
               <div class="col s4">
                 <i class="large material-icons about-icons">show_chart</i>
@@ -152,13 +147,13 @@
                 </ul>
                 <h6 class="project-content">Roulette created with Javascript and jQuery.</h6>
                 <div class="center-align skill-bottom-padding">   
-                  <a href="https://d2q4c7mchrtx99.cloudfront.net/" class="center-align waves-effect waves-light btn">VIEW LIVEAPP</a>
+                  <a href="https://d2q4c7mchrtx99.cloudfront.net/" class="center-align waves-effect waves-light btn">VIEW LIVEAPP</a>8
                   <a href="https://github.com/danielhkim92/gaGame" class="center-align waves-effect waves-light btn">VIEW CODE</a>
                 </div>  
         </div>        
         <div class="card projects z-depth-5">
           <h5 class="center-align project-header font">TV/Movie CrudApp</h5><hr>
-            <img class="project-image" src="https://github.com/Naglebagel/projectTwoCRUD/raw/master/public/images/signedin.png">
+            <img class="project-image" src="photos/crudapp.png">
             <h5 class="center-align">Built With:<br></h5>
                 <ul class="app-skills center-align">
                   <li><img src="photos/skills/javascript.png" class="app-skill-icons"><h6 class="app-icon-header">Javascript</h6></li>
@@ -203,3 +198,25 @@
 <script src="scripts/scripts.js" type="text/javascript"></script>
 </body>
 </html>
+
+
+
+<!--   <div id="menu">
+    <ul id="slide-out" class="z-depth-5 side-nav fixed show-on-large-only">
+      <img src="photos/profileimage.jpg" alt="" id="profilepic" class="circle"> <! notice the "circle" class -->
+        <!-- <h6 class="center-align header-font">DANIEL KIM</h6>
+        <h6 class="center-align header-font">FULLSTACK DEVELOPER</h6>
+          <hr>
+            <ul id="icons">
+              <li><a href="photos/Resume032117.pdf" class="noHover"><img class="icons" src="photos/resume.png"></a></li>
+              <li><a href="mailto:danielhkim92@gmail.com" class="noHover"><img class="icons" src="photos/email.png"></a></li>
+              <li><a href="https://www.linkedin.com/in/danielhkim92/" class="noHover"><img class="icons" src="photos/linkedin.png"></a></li>
+              <li><a href="https://github.com/danielhkim92" class="noHover"><img class="icons" src="photos/github.png"></a></li>
+              <li><a href="https://www.instagram.com/danielhkim92/" class="noHover"><img class="icons"  src="photos/instagram.png"></a></li>
+            </ul>
+              <li id="navbar-li" class="navbarcenter-align"><a href="#home" class="noHover"><i class="material-icons navbar-icons about-icons">home</i>Home</a></li>
+              <li class="navbarcenter-align"><a href="#about" class="noHover"><i class="material-icons navbar-icons about-icons">person</i>About</a></li>
+              <li class="navbarcenter-align"><a href="#skills" class="noHover"><i class="material-icons navbar-icons about-icons">insert_chart</i>Skills</a></li>
+              <li class="navbarcenter-align"><a href="#projects" class="noHover"><i class="material-icons navbar-icons about-icons">laptop_mac</i>Projects</a></li>
+    </ul>
+  </div> -->
