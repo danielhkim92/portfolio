@@ -14,17 +14,6 @@
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body>
-
-<!-- <header class="center-align">
-    <ul id="icons">
-      <li><a href="photos/Resume032117.pdf" class="noHover"><img class="icons" src="photos/resume.png"></a></li>
-      <li><a href="mailto:danielhkim92@gmail.com" class="noHover"><img class="icons" src="photos/email.png"></a></li>
-      <li><a href="https://www.linkedin.com/in/danielhkim92/" class="noHover"><img class="icons" src="photos/linkedin.png"></a></li>
-      <li><a href="https://github.com/danielhkim92" class="noHover"><img class="icons" src="photos/github.png"></a></li>
-      <li><a href="https://www.instagram.com/danielhkim92/" class="noHover"><img class="icons"  src="photos/instagram.png"></a></li>
-      </ul>
-</header> -->
-
   <div class="navbar-fixed" id="navbar-top">
     <nav>
       <div class="nav-wrapper center-align">
@@ -108,41 +97,40 @@
       </div>
       <div id="skills">
         <div class="container">
-            <div class="row"><h3 id="skills-header" class="center-align white-font">SKILLS</h3>
-              <div class="card z-depth-5">
-                <ul id="languages" class="center-align"><h5 class="center-align skill-title font">LANGUAGES</h5><hr>
-                  <li><img src="photos/skills/javascript.png" class="skill-icons"><h6 class="icon-header">Javascript</h6></li>
-                  <li><img src="photos/skills/ruby.png" class="skill-icons"><h6 class="icon-header">Ruby</h6></li>
-                  <li><img src="photos/skills/java.png" class="skill-icons"><h6 class="icon-header">Java</h6></li>
-                  <li><img src="photos/skills/html5.png" class="skill-icons"><h6 class="icon-header">HTML5</h6></li>
-                  <li><img src="photos/skills/css3.png" class="skill-icons"><h6 class="icon-header">CSS3</h6></li>
-                </ul>
-              </div>
-              <div class="card z-depth-5">
-              <ul id="frameworks" class="center-align"><h5 class="center-align skill-title font">FRONT-END</h5><hr>
-                <li><img src="photos/skills/react.png" class="skill-icons"><h6 class="icon-header">React.js</h6></li>
-                <li><img src="photos/skills/angular.png" class="skill-icons"><h6 class="icon-header">Angular</h6></li>
-                <li><img src="photos/skills/nodejs.png" class="skill-icons"><h6 class="icon-header">Node.js</h6></li>
-                <li><img src="photos/skills/materialize.png" class="skill-icons"><h6 class="icon-header">Materialize</h6></li>
-                <li><img src="photos/skills/bootstrap.png" class="skill-icons"><h6 class="icon-header">Bootstrap</h6></li>
-              </ul>
-            </div>
-            <div class="card z-depth-5"><h5 class="center-align skill-title font">BACK-END</h5><hr>
+            <div class="row">
+              <div class="card z-depth-5" id="skill-card">
+                <h3 id="skills-header" class="center-align white-font">SKILLS</h3><hr>
+                  <ul id="languages" class="center-align">
+                    <h6 class="skill_title1 font">LANGUAGES</h6>
+                      <li><img src="photos/skills/javascript.png" class="skill-icons"><h6 class="icon-header">Javascript</h6></li>
+                      <li><img src="photos/skills/ruby.png" class="skill-icons"><h6 class="icon-header">Ruby</h6></li>
+                      <li><img src="photos/skills/java.png" class="skill-icons"><h6 class="icon-header">Java</h6></li>
+                      <li><img src="photos/skills/html5.png" class="skill-icons"><h6 class="icon-header">HTML5</h6></li>
+                      <li><img src="photos/skills/css3.png" class="skill-icons"><h6 class="icon-header">CSS3</h6></li>
+                  </ul>
+              <ul id="frameworks" class="center-align">
+                <h6 class="skill_title font">FRONT-END</h6>
+                  <li><img src="photos/skills/react.png" class="skill-icons"><h6 class="icon-header">React.js</h6></li>
+                  <li><img src="photos/skills/angular.png" class="skill-icons"><h6 class="icon-header">Angular</h6></li>
+                  <li><img src="photos/skills/nodejs.png" class="skill-icons"><h6 class="icon-header">Node.js</h6></li>
+                  <li><img src="photos/skills/materialize.png" class="skill-icons"><h6 class="icon-header">Materialize</h6></li>
+                  <li><img src="photos/skills/bootstrap.png" class="skill-icons"><h6 class="icon-header">Bootstrap</h6></li>
+              </ul>           
               <ul id='backend' class="center-align">
-                <li><img src="photos/skills/mongo.png" class="skill-icons"><h6 class="icon-header">MongoDB</h6></li>
-                <li><img src="photos/skills/postgresql.png" class="skill-icons"><h6 class="icon-header">PostgreSQL</h6></li>
-                <li><img src="photos/skills/rails.png" class="skill-icons"><h6 class="icon-header">Rails</h6></li>
-                <li><img src="photos/skills/sinatra.png" class="skill-icons"><h6 class="icon-header">Sinatra</h6></li>
-                <li><img src="photos/skills/expressjs.png" class="skill-icons"><h6 class="icon-header">Express.js</h6></li>
-              </ul>
-            </div>
-            <div class="card z-depth-5">    
-              <ul id="other" class="center-align"><h5 class="center-align skill-title font">OTHER</h5><hr>
-                <li><img src="photos/skills/chai.png" class="skill-icons"><h6 class="icon-header">Chai</h6></li>
-                <li><img src="photos/skills/mocha.png" class="skill-icons"><h6 class="icon-header">Mocha</h6></li>
-                <li><img src="photos/skills/jest.png" class="skill-icons"><h6 class="icon-header">Jest</h6></li>
-                <li><img src="photos/skills/githubskill.png" class="skill-icons"><h6 class="icon-header">Github</h6></li>
-                <li><img src="photos/skills/heroku.png" class="skill-icons"><h6 class="icon-header">Heroku</h6></li>
+                <h6 class="skill_title font">BACK-END</h6>
+                  <li><img src="photos/skills/mongo.png" class="skill-icons"><h6 class="icon-header">MongoDB</h6></li>
+                  <li><img src="photos/skills/postgresql.png" class="skill-icons"><h6 class="icon-header">PostgreSQL</h6></li>
+                  <li><img src="photos/skills/rails.png" class="skill-icons"><h6 class="icon-header">Rails</h6></li>
+                  <li><img src="photos/skills/sinatra.png" class="skill-icons"><h6 class="icon-header">Sinatra</h6></li>
+                  <li><img src="photos/skills/expressjs.png" class="skill-icons"><h6 class="icon-header">Express.js</h6></li>
+              </ul>  
+              <ul id="other" class="center-align">
+                <h6 class="skill_title font">OTHER</h6>
+                  <li><img src="photos/skills/chai.png" class="skill-icons"><h6 class="icon-header">Chai</h6></li>
+                  <li><img src="photos/skills/mocha.png" class="skill-icons"><h6 class="icon-header">Mocha</h6></li>
+                  <li><img src="photos/skills/jest.png" class="skill-icons"><h6 class="icon-header">Jest</h6></li>
+                  <li><img src="photos/skills/githubskill.png" class="skill-icons"><h6 class="icon-header">Github</h6></li>
+                  <li><img src="photos/skills/heroku.png" class="skill-icons"><h6 class="icon-header">Heroku</h6></li>
               </ul>
             </div>
           </div>
@@ -209,6 +197,27 @@
         </div>
   </div>
 </div>
+  <footer class="page-footer black">
+      <div class="container">
+        <div class="row center-align" id="fixed-padding">
+          <h6>Let's Work Together</h6>
+          <p class="p-padding">I look forward to connecting and to collaborate <br> to build something amazing</p>
+          <ul id="icons-footer">
+            <li class="zoom"><a href="tel:1-314-288-8234" class="noHover"><img class="footer-icons" src="photos/phone.png"></a></li>
+            <li class="zoom"><a href="photos/Resume032117.pdf" class="noHover"><img class="footer-icons" src="photos/resume.png"></a></li>
+            <li class="zoom"><a href="mailto:danielhkim92@gmail.com" class="noHover"><img class="footer-icons" src="photos/email.png"></a></li>
+            <li class="zoom"><a href="https://www.linkedin.com/in/danielhkim92/" class="noHover"><img class="footer-icons" src="photos/linkedin.png"></a></li>
+            <li class="zoom"><a href="https://github.com/danielhkim92" class="noHover"><img class="footer-icons" src="photos/github.png"></a></li>
+            <li class="zoom"><a href="https://www.instagram.com/danielhkim92/" class="noHover"><img class="footer-icons"  src="photos/instagram.png"></a></li>
+          </ul>
+            <div class="center-align">
+              <P>© 2018 Daniel Kim<p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 <script src="scripts/morphext.min.js"></script>
@@ -238,3 +247,32 @@
                   </div> 
                 </li>   
               </ul>  -->
+<!--                       <div class="row center-align">
+            <ul class="center-align footer-nav">
+              <li class="navbarcenter-align zoom">
+                <a href="#home" class="noHover">
+                  <i class="small material-icons navbar-icons about-icons">home</i>
+                    <p class="footer-p p-position">Home</p>
+                  </a>
+                </li>
+              <li class="navbarcenter-align zoom">
+                <a href="#about-top" class="noHover">
+                  <i class="small material-icons navbar-icons about-icons">person</i>
+                    <p class="footer-p p-position">About</p>
+                </a>
+              </li>
+              <li class="navbarcenter-align zoom">
+                <a href="#skills-top" class="noHover">
+                  <i class="small material-icons navbar-icons about-icons">insert_chart</i>
+                    <p class="footer-p p-position">Skills</p>
+                  </i>
+                </a>
+              </li>
+              <li class="navbarcenter-align zoom">
+                <a href="#projects-top" class="noHover">
+                  <i class="small material-icons navbar-icons about-icons">laptop_mac</i>
+                    <p class="footer-p p-position">Projects</p>
+                </a>
+              </li>
+            </ul>          
+        </div> -->
