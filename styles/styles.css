@@ -3,20 +3,38 @@ body, html {
     margin-top: -22px;
 }
 
+#navbar-top {
+    margin-top: 43px;
+    margin-bottom: -40px;
+}
+
+.p-position {
+    padding-top: 40px;
+}
+
+nav {
+    height: 115px;
+    background-color: black;
+    opacity: .95;
+}
+
 #header {
-    height: 200px;
-    padding-top: 50px;
-    margin-left: -38px;
+    margin-top: 60px;
 }
 
 .header {
+    margin-right: 15px;
     color: white;
-    margin-top: -5px;
 }
 
 .font {
     font-family: 'Capriola', sans-serif;
     color: white;
+}
+
+#icons li {
+    margin-top: 30px;
+    display: inline-block;
 }
 
 .white-font {
@@ -51,17 +69,21 @@ blockquote{
 }*/
 
 #content {
+    position: absolute;
+    z-index: -600;
+    overflow: auto;
+    margin-top: -17px;
     background-image: url("../photos/background1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-#profilepic {
+/*#profilepic {
     margin-left: 30px;
     padding: 20px 10px 5px 10px;
     height: 210px;
     width: 180px;
-}
+}*/
 
 
 /*.noHover{
@@ -69,25 +91,25 @@ blockquote{
 }*/
 
 
-#navbar-li {
+/*#navbar-li {
     padding-top: 45px;
-}
+}*/
 
-.navbar-icons {
+/*.navbar-icons {
     padding: 10px 50px 0px 50px;
     color: black;
-}
-
+}*/
+/*
 .navbarcenter-align {
     padding-left: 20px;
     display: inline-block;
-}
+}*/
 
-#icons li {
+/*#icons li {
     display: inline-block;
     width: 42px;
     margin-top: 20px
-}
+}*/
 
 #icons a {
     margin-left: 0px;
@@ -95,14 +117,24 @@ blockquote{
 }
 
 .icons {
-    height: 35px;
-    width: 35px
+    height: 40px;
+    width: 40px
     top: 10px;
+    padding-right: 10px;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.25);
 }
 
 #home {
 /*    background-image: url("../photos/coolbackground.jpg");*/
     /* Full height */
+    padding-top: 200px;
     height: 725px; 
     /* Center and scale the image nicely */
     background-position: center;
@@ -111,9 +143,20 @@ blockquote{
     color: white;
 }
 
-#home-text {
-    padding-top: 100px;
+#about-top {
+    height: 70px;
+    margin-top: -100px;
 }
+#skills-top {
+    height: 200px;
+    margin-top: -100px;
+}
+
+#projects-top {
+    height: 200px;
+    margin-top: -100px;
+}
+
 
 
 #about {
@@ -123,7 +166,7 @@ blockquote{
     background-repeat: no-repeat;
     background-position: center;
     height: 725px;
-    padding: 50px 50px 50px 50px;
+    padding: 50px 150px 50px 150px;
 }
 
 #about blockquote {
@@ -150,6 +193,8 @@ blockquote{
 
 .about-icons {
     color: white;
+    padding-left: 20px;
+    padding-right: 20px;
     text-shadow: 1px 1px black;
 }
 
@@ -215,7 +260,7 @@ blockquote{
 }
 
 .projects {
-    padding: 25px 80px 25px 80px;
+    padding: 25px 170px 25px 170px;
 }
 
 #projects {
