@@ -25,6 +25,9 @@ $('.collapsible').collapsible();
 
   // Or with jQuery
 
-$(document).ready(function(){
-  $('.tooltipped').tooltip();
-});
+window.sr = ScrollReveal();
+
+
+// Customizing a reveal set
+sr.reveal('.row', { duration: 900 });
+sr.reveal('#projects', { duration: 900 });
