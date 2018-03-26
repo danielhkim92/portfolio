@@ -131,11 +131,11 @@ blockquote{
 }
 
 .zoom {
-    transition: transform .2s; /* Animation */
+    transition: transform .4s; /* Animation */
 }
 
 .zoom:hover {
-    transform: scale(1.25);
+    transform: scale(1.5);
 }
 
 #home {
